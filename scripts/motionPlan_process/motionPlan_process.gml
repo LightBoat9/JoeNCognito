@@ -26,8 +26,8 @@ if path_get_number(motionPath) > 0 {
 		} else {
 			//show_debug_message(string(dx)+", "+string(dy))
 		
-			xSpd = round((dx/mag) * min(walkSpd,abs(dx)))
-			ySpd = round((dy/mag) * min(walkSpd,abs(dy)))
+			xSpd = min(walkSpd,abs(dx))*sign(dx)
+			ySpd = min(walkSpd,abs(dy))*sign(dy)
 			
 			//show_debug_message(string(xxSpd)+", "+string(yySpd))
 			

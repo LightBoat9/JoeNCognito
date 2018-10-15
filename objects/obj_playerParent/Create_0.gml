@@ -3,3 +3,5 @@
 
 movement = Movement.idle;
 image_angle = 0;
+
+invisible = false

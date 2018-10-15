@@ -1,0 +1,4 @@
+enum player {
+	idle,
+	walking
+}

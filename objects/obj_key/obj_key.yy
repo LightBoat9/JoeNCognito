@@ -1,18 +1,18 @@
 {
-    "id": "ab8678b6-cf55-4f27-bdc5-2a326a9f9e42",
+    "id": "8039a9d8-f425-41ee-a610-99c55b5597c2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_gun",
+    "name": "obj_key",
     "eventList": [
         {
-            "id": "31b97eaf-2edd-4cd6-b17d-80420a9d47f9",
+            "id": "f61d98a0-74a5-4611-85ce-1ff160d3b80b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "332d24fe-04ad-4180-bea5-0dc7bf809c12",
+            "collisionObjectId": "2040bfe6-0d97-4690-a873-b51953f6a6f9",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "ab8678b6-cf55-4f27-bdc5-2a326a9f9e42"
+            "m_owner": "8039a9d8-f425-41ee-a610-99c55b5597c2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2500fd45-df79-4b95-bb68-979dbb15f377",
+    "spriteId": "a776c8b2-43b3-43c7-b4a8-83bafd2aef36",
     "visible": true
 }

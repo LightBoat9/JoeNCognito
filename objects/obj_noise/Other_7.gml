@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Destroy object
 // You can write your code in this editor
 
 if(image_alpha <= 0)

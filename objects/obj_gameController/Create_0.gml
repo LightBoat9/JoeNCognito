@@ -5,3 +5,5 @@ hasProjector = false
 canCoat = true
 canGun = true
 canProjector = true
+
+numKeys = 0

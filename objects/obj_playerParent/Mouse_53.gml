@@ -3,7 +3,7 @@
 
 if(obj_gameController.hasGun = true && obj_gameController.canGun = true)
 {
-	instance_create_layer(x,y,"Items_Layer", obj_bullet)
+	instance_create_layer(x,y,layer, obj_bullet)
 	obj_gameController.canGun = false
 	alarm_set(2, 250)
 }

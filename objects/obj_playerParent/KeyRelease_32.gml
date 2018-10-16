@@ -6,7 +6,10 @@ if(obj_gameController.hasCoat = true && obj_gameController.canCoat = true)
 	
 	image_alpha = 0.5
 	obj_gameController.canCoat = false
-	alarm_set(0, 120)
+	with(obj_effectTimer)
+	{
+		alarm_set(0, 120)
+	}
 	
 	invisible = true
 }

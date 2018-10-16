@@ -5,5 +5,8 @@ if(obj_gameController.hasGun = true && obj_gameController.canGun = true)
 {
 	instance_create_layer(x,y,layer, obj_bullet)
 	obj_gameController.canGun = false
-	alarm_set(2, 250)
+	with(obj_effectTimer)
+	{
+		alarm_set(2, 250)
+	}
 }

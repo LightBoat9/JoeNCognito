@@ -28,7 +28,7 @@ else
 if(movement != Movement.idle)
 {
 	vspeed = 3;
-	speed = 3;
+	hspeed = 3;
 }
 
 // Check to see if a wall exists in that direction
@@ -38,6 +38,42 @@ wallUp = instance_place(x + 0, y - (vspeed + 10), obj_wallParent);
 wallDown = instance_place(x + 0, y + (vspeed + 10), obj_wallParent);
 
 image_angle = point_direction(x,y,mouse_x,mouse_y)
+
+if(keyboard_check(vk_lshift) && obj_gameController.canSprint)
+{
+	vspeed = 4.5
+	hspeed = 4.5
+
+	with(obj_gameController)
+	{
+		
+		if(stamina > 0)
+		{
+			stamina -= 1
+		}
+		
+		if(stamina <= 0)
+		{
+			canSprint = false
+		}
+	}
+}
+else
+{
+	with(obj_gameController)
+	{
+		if(stamina < staminaMax)
+		{
+			stamina += 0.1
+		}
+	
+		if(stamina >= staminaMax)
+		{
+			canSprint = true
+		}
+		
+	}
+}
 
 switch(movement)
 {
@@ -114,3 +150,5 @@ switch(movement)
 		}
 		break;
 }
+
+

@@ -7,5 +7,8 @@ if(obj_gameController.hasProjector = true && obj_gameController.canProjector = t
 	
 	instance_create_layer(x,y,layer, obj_noise)
 	obj_gameController.canProjector = false
-	alarm_set(3, 1000)
+	with(obj_effectTimer)
+	{
+		alarm_set(3, 750)
+	}
 }

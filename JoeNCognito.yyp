@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "69ba2986-9651-48ef-baba-8193f61920bb",
+            "Value": {
+                "id": "e11b5981-7ad1-4069-aa98-d9c64a552fd3",
+                "resourcePath": "sprites\\spr_grabber\\spr_grabber.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6a4fd372-85a5-432e-8d1f-64050f481b31",
             "Value": {
                 "id": "1dcb6be6-622a-4706-bb80-2e001f6a2c74",
@@ -315,6 +323,14 @@
             "Value": {
                 "id": "79fc0120-c63b-4614-a2a3-327ff3d4b9b3",
                 "resourcePath": "views\\6d40d839-673d-4a60-8ed3-7d37fbdd7ea3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6e881b38-a313-422b-a566-3907ee34a717",
+            "Value": {
+                "id": "7aed2322-b57c-4097-a561-5f925ecd09f7",
+                "resourcePath": "views\\6e881b38-a313-422b-a566-3907ee34a717.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -372,6 +388,14 @@
                 "id": "0c2b7c5b-abd8-487e-8182-54e82910eedd",
                 "resourcePath": "sprites\\spr_taser\\spr_taser.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "84d86ffe-698c-4fbf-82c9-dd4e5c61fbd1",
+            "Value": {
+                "id": "cefc1b9d-8c28-451a-8992-0cc0fa428a5b",
+                "resourcePath": "tilesets\\tile1\\tile1.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -660,6 +684,14 @@
                 "id": "e8939cee-a7b4-4977-a174-dfa1bd7d7183",
                 "resourcePath": "objects\\obj_door\\obj_door.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e7a39e01-97b6-439f-ba36-9b4d5fecd05d",
+            "Value": {
+                "id": "ecb7371b-ed81-46ea-9542-9fe08e781761",
+                "resourcePath": "sprites\\spr_tile1\\spr_tile1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -1,3 +1,4 @@
 /// @description toIntegTestRoom
 
-room_goto(1)
+room_goto(rm_enemyIntegrationTest)
+

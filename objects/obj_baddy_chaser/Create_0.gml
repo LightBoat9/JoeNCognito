@@ -11,6 +11,8 @@ chase_y = 0
 
 //checking - pathfinding to point of interest
 motionPlan = tilemap_to_mp(tileLayer)
+mp_grid_add_instances(motionPlan,obj_wallParent,false)
+
 motionPath = path_add()
 
 path_iter = 0

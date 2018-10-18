@@ -65,7 +65,17 @@
             "m_owner": "2040bfe6-0d97-4690-a873-b51953f6a6f9"
         },
         {
-            "id": "16523033-7aeb-4e42-9e84-cf4600e5c946",
+            "id": "c1a60da1-c0a2-43b4-8989-e076b2c5c865",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 80,
+            "eventtype": 10,
+            "m_owner": "2040bfe6-0d97-4690-a873-b51953f6a6f9"
+        },
+        {
+            "id": "81516af0-6e32-447c-a404-01116cb38a97",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -73,9 +83,19 @@
             "enumb": 2,
             "eventtype": 3,
             "m_owner": "2040bfe6-0d97-4690-a873-b51953f6a6f9"
+        },
+        {
+            "id": "739d7fa4-4e98-4389-9b75-a654e25740d3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "2040bfe6-0d97-4690-a873-b51953f6a6f9"
         }
     ],
-    "maskSpriteId": "93919e2b-4921-4a72-940d-380b998016ee",
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
@@ -93,7 +113,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "aadb228f-e197-4ead-95e9-7fee88923de0",
+            "id": "0c243670-4b3e-461a-b86b-6b1a57824c99",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -102,7 +122,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 16,
-            "value": "movement_check_default",
+            "value": "movement_check_doorOpener",
             "varName": "collisionCheckScript",
             "varType": 5
         }

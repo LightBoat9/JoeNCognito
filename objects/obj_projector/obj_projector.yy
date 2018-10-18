@@ -5,13 +5,13 @@
     "name": "obj_projector",
     "eventList": [
         {
-            "id": "ae0ee31b-3c90-4746-9782-2c4c901bb740",
+            "id": "f1d59be4-af93-4ad9-93f2-53fc3fc04fb6",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "5c2aac8a-6260-4e65-a926-1e59ddff7276",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
+            "eventtype": 3,
             "m_owner": "d1c2e78b-ef3d-400c-98ef-f26c46ffb397"
         }
     ],

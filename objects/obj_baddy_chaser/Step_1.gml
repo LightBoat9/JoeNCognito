@@ -1,4 +1,7 @@
-var lineOfSight = !collision_line_tiles(x,y,targetObj.x,targetObj.y,tilemap_collision) && !targetObj.invisible;
+var lineOfSight = 
+	!collision_line_tiles(x,y,targetObj.x,targetObj.y,tilemap_collision) && 
+	!collision_line(x,y,targetObj.x,targetObj.y,obj_wallParent,false,true) && 
+	!obj_gameController.playerInvisible;
 
 switch(state){
 	case chaser.idle:

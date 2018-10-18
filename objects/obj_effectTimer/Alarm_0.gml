@@ -1,6 +1,4 @@
 /// @description End invisibility
 
-image_alpha = 1
+obj_gameController.playerInvisible = false
 alarm_set(1, 380)
-
-invisible = false

@@ -2,13 +2,10 @@
 // You can write your code in this editor
 
 movement = Movement.idle;
-image_angle = 0;
-
-invisible = false
+angle = 0;
 
 xSpd = 0
 ySpd = 0
+sprinting = false
 
 tilemap_collision = layer_tilemap_get_id(layer_get_id("layer_collision_tiles"))
-
-sprinting = false;

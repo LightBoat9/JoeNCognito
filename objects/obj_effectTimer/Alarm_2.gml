@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 
-obj_gameController.canGun= true
+obj_gameController.canShoot= true

@@ -1,5 +1,5 @@
-/// @description Set Direction and speed
+/// @description Set stopping point
 // You can write your code in this editor
 
-direction = point_direction(x,y, mouse_x,mouse_y)
-speed = 5
+stopPoint_x = mouse_x
+stopPoint_y = mouse_y

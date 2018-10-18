@@ -67,11 +67,10 @@ else
 			stamina += 0.1
 		}
 	
-		if(stamina >= staminaMax)
+		if(stamina >= staminaMax || infiniteSprint)
 		{
 			canSprint = true
 		}
-		
 	}
 }
 

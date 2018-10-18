@@ -1,11 +1,11 @@
 /// @description Shows what items the player has
 
-if(hasGun == true && canGun = true)
+if(hasGun && canShoot)
 {
 	draw_sprite(spr_gun, 0, 50, 20)
 }
 
-if(hasCoat == true && canCoat == true)
+if(hasCoat && canShoot == true)
 {
 	draw_sprite(spr_coat, 0, 50 + sprite_get_width(spr_gun), 20)
 }

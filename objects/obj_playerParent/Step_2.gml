@@ -3,8 +3,8 @@ var dv = movement_application(xSpd,ySpd),
 	ds = 1;
 
 //movement application returns the vector of actual change, dv
-//as long as |dv| != 0, and we're sprinting, we can/should subtract from stamina
-if (dv[0] != 0 || dv[1] != 0) and sprinting then ds = -1;
+//as long as |dv| != 0, and we're sprinting and infinteSprint isn't on, we can/should subtract from stamina
+if ((dv[0] != 0 || dv[1] != 0) && !obj_gameController.infiniteSprint) and sprinting then ds = -1;
 
 with obj_gameController {
 	stamina = clamp(stamina+ds, 0, staminaMax)

@@ -5,13 +5,13 @@
     "name": "obj_coat",
     "eventList": [
         {
-            "id": "d811a9a8-1c3e-4b67-b4bc-97af397a036c",
+            "id": "d4fa192b-b3ce-47fa-8074-bf3b140a3381",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "863fe2b2-1e72-4bdd-b1ac-db4ae34340ea",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
+            "eventtype": 3,
             "m_owner": "55b62adf-bf1d-413d-9c68-c521da8e718e"
         }
     ],

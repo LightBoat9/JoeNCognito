@@ -5,13 +5,13 @@
     "name": "obj_gun",
     "eventList": [
         {
-            "id": "31b97eaf-2edd-4cd6-b17d-80420a9d47f9",
+            "id": "b980f7c5-4ca6-48ac-96c0-550da35e41ca",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "332d24fe-04ad-4180-bea5-0dc7bf809c12",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
+            "eventtype": 3,
             "m_owner": "ab8678b6-cf55-4f27-bdc5-2a326a9f9e42"
         }
     ],

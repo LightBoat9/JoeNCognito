@@ -1,5 +1,14 @@
 /// @description Keep track of player state
 
+ini_open("Options")
+soundOn = ini_read_real("Volume", "soundOn", 1)
+musicOn = ini_read_real("Volume", "musicOn", 1)
+infiniteKeys = ini_read_real("Cheats", "infiniteKeys", 0)
+infiniteSprint = ini_read_real("Cheats", "infiniteSprint", 0)
+allUnlocks = ini_read_real("Cheats", "allUnlocks", 0)
+noDeaths = ini_read_real("Cheats", "noDeaths", 0)
+ini_close()
+
 if(instance_exists(obj_playerCoat))
 {
 	if(playerInvisible)
@@ -19,7 +28,21 @@ if(!allUnlocks)
 	hasCoat = actualUnlocks[1]
 	hasProjector = actualUnlocks[2]
 	
-	if(hasCoat)
+	if(!hasGun && !hasCoat && instance_exists(obj_playerCoat))
+	{
+		with(obj_playerCoat)
+		{
+			instance_change(obj_player, false)
+		}
+	}
+	else if(hasGun && !hasCoat && instance_exists(obj_playerCoat))
+	{
+		with(obj_playerCoat)
+		{
+			instance_change(obj_playerGun, false)
+		}
+	}
+	else if(hasCoat)
 	{
 		if(instance_exists(obj_player))
 		{
@@ -47,20 +70,7 @@ if(!allUnlocks)
 			}
 		}
 	}
-	else if(!hasGun && !hasCoat && instance_exists(obj_playerCoat))
-	{
-		with(obj_playerCoat)
-		{
-			instance_change(obj_player, false)
-		}
-	}
-	else if(hasGun && !hasCoat && instance_exists(obj_playerCoat))
-	{
-		with(obj_playerCoat)
-		{
-			instance_change(obj_playerGun, false)
-		}
-	}
+	
 }
 else
 {
@@ -83,4 +93,5 @@ else
 		}
 	}
 }
+
 

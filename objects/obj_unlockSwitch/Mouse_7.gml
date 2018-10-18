@@ -1,11 +1,17 @@
 /// @description Toggle Unlock Cheat
 // You can write your code in this editor
 
+ini_open("Options")
+
 if(image_index == 0)
 {
-	obj_gameController.allUnlocks = true
+	ini_write_real("Cheats", "allUnlocks", true)
+	//obj_gameController.allUnlocks = true
 }
 else
 {
-	obj_gameController.allUnlocks = false
+	ini_write_real("Cheats", "allUnlocks", false)
+	//obj_gameController.allUnlocks = false
 }
+
+ini_close()

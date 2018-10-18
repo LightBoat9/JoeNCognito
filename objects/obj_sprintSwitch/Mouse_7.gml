@@ -1,11 +1,18 @@
 /// @description Toggle Sprint Cheat
 // You can write your code in this editor
 
+ini_open("Options")
+
 if(image_index == 0)
 {
-	obj_gameController.infiniteSprint = true
+	ini_write_real("Cheats", "infiniteSprint", true)
+	//obj_gameController.infiniteSprint = true
 }
 else
 {
-	obj_gameController.infiniteSprint = false
+	ini_write_real("Cheats", "infiniteSprint", false)
+	//obj_gameController.infiniteSprint = false
 }
+
+ini_close()
+

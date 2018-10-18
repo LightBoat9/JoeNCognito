@@ -1,8 +1,10 @@
-/// @description Go to first room
+/// @description Reset some GC vars, go to room0
 // You can write your code in this editor
+
 with(obj_gameController)
 {
-	event_perform(ev_create, 0)
+	actualUnlocks = [false, false, false]
+	numKeys = 0
 }
 
 if file_exists("Save.dat")

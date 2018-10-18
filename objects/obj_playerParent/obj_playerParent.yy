@@ -63,9 +63,19 @@
             "enumb": 54,
             "eventtype": 6,
             "m_owner": "2040bfe6-0d97-4690-a873-b51953f6a6f9"
+        },
+        {
+            "id": "16523033-7aeb-4e42-9e84-cf4600e5c946",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 3,
+            "m_owner": "2040bfe6-0d97-4690-a873-b51953f6a6f9"
         }
     ],
-    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "maskSpriteId": "93919e2b-4921-4a72-940d-380b998016ee",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
@@ -81,7 +91,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "aadb228f-e197-4ead-95e9-7fee88923de0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 16,
+            "value": "movement_check_default",
+            "varName": "collisionCheckScript",
+            "varType": 5
+        }
+    ],
     "solid": true,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true

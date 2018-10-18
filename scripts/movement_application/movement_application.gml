@@ -1,10 +1,11 @@
 //requires valid horizontal and vertical collision check scripts.
 
-var xSpd = argument0, ySpd = argument1;
+var xSpd = argument0, ySpd = argument1,
+	dx = 0, dy = 0
 
 if xSpd!=0 {
 	if script_execute(collisionCheckScript,x+xSpd,y){
-		x+=xSpd	
+		dx=xSpd	
 	} else {
 		var xDir = sign(xSpd),
 			i = 0;
@@ -14,13 +15,13 @@ if xSpd!=0 {
 			i++;
 		}
 		
-		x+=i*xDir
+		dx=i*xDir
 	}
 }
 
 if ySpd!=0 {
 	if script_execute(collisionCheckScript,x,y+ySpd){
-		y+=ySpd	
+		dy=ySpd	
 	} else {
 		var yDir = sign(ySpd),
 			i = 0;
@@ -30,6 +31,11 @@ if ySpd!=0 {
 			i++;
 		} 
 		
-		y+=i*yDir	
+		dy=i*yDir	
 	}
 }
+
+x+=dx
+y+=dy
+
+return [dx,dy]

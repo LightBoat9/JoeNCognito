@@ -13,8 +13,6 @@ numKeys = 0
 staminaMax = 50
 stamina = staminaMax
 
-roomBeforeMenu = rm_mainMenu
-
 soundOn = true
 musicOn = true
 infiniteKeys = false

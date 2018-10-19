@@ -1,5 +1,8 @@
 /// @description Keep track of player state
 
+// Checks the "Options" file for the options the user has chosen.
+// Updates the variables in gameController based on the file.
+// If the variable doesn't exist in the file, use 1 or 0 as the default
 ini_open("Options")
 soundOn = ini_read_real("Volume", "soundOn", 1)
 musicOn = ini_read_real("Volume", "musicOn", 1)
@@ -9,6 +12,7 @@ allUnlocks = ini_read_real("Cheats", "allUnlocks", 0)
 noDeaths = ini_read_real("Cheats", "noDeaths", 0)
 ini_close()
 
+// Changes player's opacity based on invisibility status
 if(instance_exists(obj_playerCoat))
 {
 	if(playerInvisible)
@@ -21,7 +25,9 @@ if(instance_exists(obj_playerCoat))
 	}
 }
 
-
+// If the "All Unlocks" cheat is turned off, set player to the proper object based on 
+// items that have been picked up. Else if the cheat is on, change player to playerCoat 
+// and give player all items.
 if(!allUnlocks)
 {
 	hasGun = actualUnlocks[0]
@@ -93,5 +99,6 @@ else
 		}
 	}
 }
+
 
 

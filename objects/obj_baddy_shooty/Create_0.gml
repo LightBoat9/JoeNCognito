@@ -5,3 +5,5 @@ angle_target = angle
 angle_start = angle
 
 image_angle = 0
+
+state = turret.idle

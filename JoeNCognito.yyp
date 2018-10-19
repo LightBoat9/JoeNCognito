@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0f5ef6c5-3f33-47ce-9ad6-7c83613cf219",
+            "Value": {
+                "id": "7c3824fc-3665-48a0-8347-94facd01706b",
+                "resourcePath": "scripts\\enum_turret\\enum_turret.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "11e5aa2b-64cd-4a6b-9e0c-6621bb49532e",
             "Value": {
                 "id": "49a82ebd-ea1f-4632-bb11-5f7d73a6b48f",
@@ -1178,6 +1186,7 @@
     "script_order": [
         "9236fe57-e80c-407c-97a1-1d57c73fa5a7",
         "b3584bb0-f09a-47e4-ac73-077470e84b00",
+        "0f5ef6c5-3f33-47ce-9ad6-7c83613cf219",
         "cdff07aa-f651-422e-82d0-5620df8c5841",
         "590b2309-76e3-4a02-89b8-139114204f44",
         "ef3e3a05-242f-477a-847d-9db70b980c87",

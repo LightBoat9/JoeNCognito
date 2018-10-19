@@ -53,7 +53,12 @@ draw_rectangle(sbar_position[0], sbar_position[1],
 	sbar_position[0] + sbar_width, 
 	sbar_position[1] + sbar_height, false)
 // Overlay
-draw_set_color(make_color_rgb(255, 255, 0))
+if obj_gameController.canSprint {
+	draw_set_color(make_color_rgb(255, 255, 0))
+}
+else {
+	draw_set_color(make_color_rgb(255,69,0))
+}
 draw_rectangle(sbar_position[0], sbar_position[1], 
 	sbar_position[0] + (sbar_width * obj_gameController.stamina/obj_gameController.staminaMax), 
 	sbar_position[1] + sbar_height, false)

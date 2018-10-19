@@ -4,12 +4,14 @@
 // If the distance to the stopping point is larger than 5,
 // Move the projection towards the stopping point with
 // a speed of 5
-if point_distance(x, y, stopPoint_x, stopPoint_y) > 5
-{
-   move_towards_point(stopPoint_x, stopPoint_y, 5);
-}
-else 
-{
-	speed = 0;
-	image_alpha -= .1
+var dx = stopPoint_x-x,
+	dy = stopPoint_y-y;
+
+xSpd = min(maxSpd,abs(dx))*sign(dx)
+ySpd = min(maxSpd,abs(dy))*sign(dy)
+
+var dv = movement_application(xSpd,ySpd);
+
+if (dv[0]=0 && xSpd !=0) || (dv[1]=0 && ySpd !=0){
+	instance_destroy()	
 }

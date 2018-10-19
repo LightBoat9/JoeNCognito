@@ -43,10 +43,29 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "d3017ea8-78bd-466d-89a7-528ebb6b76a0"
+        },
+        {
+            "id": "89fc8502-aeba-48ad-bc06-af9428ca22d5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 7,
+            "m_owner": "d3017ea8-78bd-466d-89a7-528ebb6b76a0"
         }
     ],
     "maskSpriteId": "2aba2cdb-c62c-443d-b1b4-cd69084788c1",
-    "overriddenProperties": null,
+    "overriddenProperties": [
+        {
+            "id": "e62826b9-1ae6-4ed8-a951-ec22b4f3ea44",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "e12a53ae-fb93-4b1f-922d-132248eac703",
+            "propertyId": "03116a90-52dc-48c6-9a3b-150fbbfc3ce5",
+            "value": "enemy_soundScript_chaser"
+        }
+    ],
     "parentObjectId": "e12a53ae-fb93-4b1f-922d-132248eac703",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -74,20 +93,6 @@
             "resourceFilter": 1023,
             "value": "3",
             "varName": "walkSpd",
-            "varType": 1
-        },
-        {
-            "id": "eb04c975-0379-4083-866f-7ee654666b2f",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "10",
-            "varName": "rotSpd",
             "varType": 1
         },
         {

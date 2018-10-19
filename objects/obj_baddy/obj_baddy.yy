@@ -50,6 +50,34 @@
             "value": "60",
             "varName": "viewBreadth",
             "varType": 1
+        },
+        {
+            "id": "c63bd4d9-44b7-4ab5-8aaf-bd11f1649491",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "rotSpd",
+            "varType": 1
+        },
+        {
+            "id": "03116a90-52dc-48c6-9a3b-150fbbfc3ce5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 16,
+            "value": "noone",
+            "varName": "soundScript",
+            "varType": 5
         }
     ],
     "solid": false,

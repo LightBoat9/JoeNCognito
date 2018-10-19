@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "4682d52a-e126-4933-912b-91ec14979e80",
+            "Value": {
+                "id": "5400bf50-c6f4-417b-9db3-72fee8dded26",
+                "resourcePath": "scripts\\enemy_lineOfSight\\enemy_lineOfSight.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "46996b44-a24a-4e3c-83c1-aaa7b3b31e1f",
             "Value": {
                 "id": "31eba9e2-bfe0-401a-be23-f280335e33df",
@@ -1063,6 +1071,14 @@
             }
         },
         {
+            "Key": "e4a3c1ee-4678-4ab8-9b3e-4c52920b159c",
+            "Value": {
+                "id": "5ba4bda7-501d-4689-a483-d5bbe2658ff3",
+                "resourcePath": "scripts\\enemy_soundScript_chaser\\enemy_soundScript_chaser.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e4dd9aa3-42eb-429e-a78f-ed7c39c9ef24",
             "Value": {
                 "id": "33aa7fcf-050b-402d-95c0-9804f7404a98",
@@ -1141,6 +1157,8 @@
         "cdff07aa-f651-422e-82d0-5620df8c5841",
         "590b2309-76e3-4a02-89b8-139114204f44",
         "ef3e3a05-242f-477a-847d-9db70b980c87",
+        "4682d52a-e126-4933-912b-91ec14979e80",
+        "e4a3c1ee-4678-4ab8-9b3e-4c52920b159c",
         "3db9b5b9-6e7c-4f96-8c17-a5fca571d939",
         "5f193bb9-5a85-4473-82ce-a636efcb084d",
         "dcf0f2af-2a08-4fd2-986e-7d5544862496",

@@ -8,8 +8,7 @@ var vectX = keyboard_check(ord("D")) - keyboard_check(ord("A")),
 
 //sprinting checks a few things but does not necessarily subtract from stamina
 sprinting = (keyboard_check(vk_lshift) && 
-	obj_gameController.canSprint && 
-	obj_gameController.stamina > 0);
+	obj_gameController.canSprint);
 
 //show_debug_message(string(obj_gameController.stamina) + ", "+string(sprinting))
 

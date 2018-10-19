@@ -7,7 +7,7 @@ switch(state){
 		if (dv[0]!=0 || dv[1]!=0) then angle_target = point_direction(0,0,xSpd,ySpd)
 		break;
 	case chaser.chasing:
-		angle_target = point_direction(x,y,obj_player.x,obj_player.y)
+		angle_target = point_direction(x,y,obj_playerParent.x,obj_playerParent.y)
 		break;
 }
 

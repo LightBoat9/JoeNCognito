@@ -4,7 +4,7 @@
 var da = angle_difference(angle,angle_target);
 da = min(abs(da),rotSpd)*sign(da)
 
-show_debug_message(string(da))
+//show_debug_message(string(da))
 
 if abs(da)<rotSpd then angle = angle_target
 else angle-=da

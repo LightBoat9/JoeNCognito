@@ -13,4 +13,4 @@ if file_exists("Save.dat")
    file_delete("Save.dat")
 }
 
-room_goto(room0)
+room_goto(rm_enemyIntegrationTest)

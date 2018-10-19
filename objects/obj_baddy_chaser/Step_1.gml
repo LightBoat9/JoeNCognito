@@ -1,7 +1,10 @@
-var lineOfSight = 
-	!collision_line_tiles(x,y,targetObj.x,targetObj.y,tilemap_collision) && 
-	!collision_line(x,y,targetObj.x,targetObj.y,obj_wallParent,false,true) && 
-	!obj_gameController.playerInvisible;
+var adiff = angle_difference(angle, point_direction(x,y,obj_player.x,obj_player.y)),
+	lineOfSight = 
+	!obj_gameController.playerInvisible && //player isn't invisible
+	(adiff < viewBreadth/2 && adiff > -viewBreadth/2) && //within cone of vision
+	!collision_line_tiles(x,y,targetObj.x,targetObj.y,tilemap_collision) && //line of sight unblocked by tiles
+	!collision_line(x,y,targetObj.x,targetObj.y,obj_wallParent,false,true); //line of sight unblocked by walls
+	
 
 switch(state){
 	case chaser.idle:
@@ -37,15 +40,16 @@ switch(state){
 			break;
 		}
 		
-		//ideally what'll happen here is the chaser will investigate a point of interest,
-		//then go back to its spawn position
+		//when chaser reaches a path location it'll get a nice look around before settling
 		if !motionPlan_process(motionPath){
-			if x = xstart and y = ystart {
-				path_clear_points(motionPath)
-				state = chaser.idle
-			} else {
-				motionPlan_pointOfInterest(xstart,ystart) //pathfind back to starting position
-			}
+			show_debug_message("sweeper start")
+			state = chaser.sweeping
+			sweepDir = 0
+		}
+		break;
+	case chaser.sweeping:
+		if lineOfSight {
+			state = chaser.chasing
 		}
 		break;
 }

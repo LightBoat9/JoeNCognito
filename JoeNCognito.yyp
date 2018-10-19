@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "46996b44-a24a-4e3c-83c1-aaa7b3b31e1f",
+            "Value": {
+                "id": "31eba9e2-bfe0-401a-be23-f280335e33df",
+                "resourcePath": "sprites\\spr_player_mask\\spr_player_mask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "48112f54-3dbf-4adc-b71b-f1d641a9c86f",
             "Value": {
                 "id": "2674a5f5-d1a9-4c72-ac07-b2e547d09a95",
@@ -999,6 +1007,14 @@
             }
         },
         {
+            "Key": "ef3e3a05-242f-477a-847d-9db70b980c87",
+            "Value": {
+                "id": "c2d0de8d-3af8-41a3-982b-939b7edd94ca",
+                "resourcePath": "scripts\\draw_baddy_viewRange\\draw_baddy_viewRange.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "42547c8b-1ee7-43f6-88d4-7b4629b390c4",
@@ -1036,6 +1052,7 @@
         "b3584bb0-f09a-47e4-ac73-077470e84b00",
         "cdff07aa-f651-422e-82d0-5620df8c5841",
         "590b2309-76e3-4a02-89b8-139114204f44",
+        "ef3e3a05-242f-477a-847d-9db70b980c87",
         "3db9b5b9-6e7c-4f96-8c17-a5fca571d939",
         "5f193bb9-5a85-4473-82ce-a636efcb084d",
         "dcf0f2af-2a08-4fd2-986e-7d5544862496",

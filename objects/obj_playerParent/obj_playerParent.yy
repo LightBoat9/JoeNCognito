@@ -135,6 +135,48 @@
             "value": "movement_check_doorOpener",
             "varName": "collisionCheckScript",
             "varType": 5
+        },
+        {
+            "id": "62521504-3fb2-426d-afae-30e9d61437bf",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "7",
+            "varName": "cooldown_gun",
+            "varType": 1
+        },
+        {
+            "id": "b046732a-3dd2-408a-9760-3da78581406d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "cooldown_sound",
+            "varType": 1
+        },
+        {
+            "id": "eefa7e60-1c9c-4bf9-ad17-3347dd68b9bc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "12",
+            "varName": "cooldown_invisible",
+            "varType": 1
         }
     ],
     "solid": true,

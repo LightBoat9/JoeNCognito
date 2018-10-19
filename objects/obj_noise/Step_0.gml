@@ -15,6 +15,6 @@ ySpd = min(abs(yy),abs(dy))*sign(dy)
 
 var dv = movement_application(xSpd,ySpd);
 
-if (dv[0]=0 && xSpd !=0) || (dv[1]=0 && ySpd !=0){
+if (xSpd = 0 && ySpd = 0) || (dv[0]=0 && xSpd !=0) || (dv[1]=0 && ySpd !=0){
 	instance_destroy()	
 }

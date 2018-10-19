@@ -14,6 +14,6 @@ if(obj_gameController.hasCoat && obj_gameController.canCoat)
 	// can resuse the ability
 	with(obj_effectTimer)
 	{
-		alarm_set(0, 120)
+		alarm_set(0, other.cooldown_invisible*30)
 	}
 }

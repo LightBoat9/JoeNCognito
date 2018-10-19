@@ -16,6 +16,6 @@ if(obj_gameController.hasGun && obj_gameController.canShoot)
 	// Set the cooldown
 	with(obj_effectTimer)
 	{
-		alarm_set(2, 250)
+		alarm_set(2, other.cooldown_gun*30)
 	}
 }

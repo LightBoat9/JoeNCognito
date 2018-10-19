@@ -13,7 +13,7 @@ if(obj_gameController.hasProjector && obj_gameController.canProjector)
 	// Set the cooldown
 	with(obj_effectTimer)
 	{
-		alarm_set(3, 750)
+		alarm_set(3, other.cooldown_sound*30)
 	}
 }
 

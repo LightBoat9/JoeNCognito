@@ -42,6 +42,8 @@ switch(state){
 		
 		//when chaser reaches a path location it'll get a nice look around before settling
 		if !motionPlan_process(motionPath){
+			xSpd = 0
+			ySpd = 0
 			show_debug_message("sweeper start")
 			state = chaser.sweeping
 			sweepDir = 0

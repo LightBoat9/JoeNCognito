@@ -3,7 +3,7 @@
 
 //pass 1: unlockable doors
 //don't need list; unlikely there'll be 2 doors to collide with at the same time
-with instance_place(argument0,argument1,obj_door){
+with instance_place(argument0,argument1,obj_door_base){
 	if(obj_gameController.numKeys > 0 || obj_gameController.infiniteKeys){
 		obj_gameController.numKeys = max(obj_gameController.numKeys-1, 0) 
 		instance_destroy()

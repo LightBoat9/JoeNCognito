@@ -8,6 +8,10 @@ sprinting = false
 
 tilemap_collision = layer_tilemap_get_id(layer_get_id("layer_collision_tiles"))
 
+tileLayerFurniture = layer_get_id("layer_collision_tiles_furniture")
+tilemap_furniture = layer_tilemap_get_id(tileLayerFurniture)
+
+
 // Stamina bar dimentions
 sbar_width = 192
 sbar_height = 32 

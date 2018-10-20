@@ -57,6 +57,20 @@
             "varType": 2
         },
         {
+            "id": "c008a3c5-2375-4328-8ef5-b7bbfd8dddf2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"layer_collision_tiles_furniture\"",
+            "varName": "tileFurnitureLayerName",
+            "varType": 2
+        },
+        {
             "id": "7ce88644-f04b-465f-b224-e384130dbd8d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",

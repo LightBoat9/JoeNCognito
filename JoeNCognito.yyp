@@ -959,6 +959,14 @@
             }
         },
         {
+            "Key": "cab2f60c-30de-470f-8fa5-2a6d57ce495b",
+            "Value": {
+                "id": "d4353d77-f7c0-406f-94e4-4877cab9c39e",
+                "resourcePath": "objects\\obj_laserCast\\obj_laserCast.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cb1a7a40-72a3-41a5-93b2-3bf09f6b3cc2",
             "Value": {
                 "id": "ec911f63-f165-4373-be84-0219b74aedd9",
@@ -972,6 +980,14 @@
                 "id": "19c82139-f96c-4ff4-9e06-19f9c2235727",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd150c7e-2aa7-4237-905f-0049c0127b03",
+            "Value": {
+                "id": "634efce7-160e-47ba-be50-394c1bacc7d1",
+                "resourcePath": "scripts\\enemy_laserCast\\enemy_laserCast.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1192,6 +1208,7 @@
         "ef3e3a05-242f-477a-847d-9db70b980c87",
         "4682d52a-e126-4933-912b-91ec14979e80",
         "e4a3c1ee-4678-4ab8-9b3e-4c52920b159c",
+        "cd150c7e-2aa7-4237-905f-0049c0127b03",
         "3db9b5b9-6e7c-4f96-8c17-a5fca571d939",
         "5f193bb9-5a85-4473-82ce-a636efcb084d",
         "dcf0f2af-2a08-4fd2-986e-7d5544862496",

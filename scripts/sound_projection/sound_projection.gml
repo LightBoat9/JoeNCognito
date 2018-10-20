@@ -6,7 +6,8 @@ var xx = argument0,
 	radius = argument2;
 
 with obj_baddy {
-	if point_distance(x,y,xx,yy) <= radius then script_execute(soundScript,xx,yy)
+	if !disabled and point_distance(x,y,xx,yy) <= radius and script_exists(soundScript)
+		then script_execute(soundScript,xx,yy)
 }
 
 var pulse = instance_create_layer(xx,yy,layer,obj_soundPulse);

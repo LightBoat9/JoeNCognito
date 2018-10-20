@@ -4,20 +4,20 @@
     "mvc": "1.0",
     "name": "obj_projector",
     "eventList": [
-        {
-            "id": "f1d59be4-af93-4ad9-93f2-53fc3fc04fb6",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "d1c2e78b-ef3d-400c-98ef-f26c46ffb397"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": [
+        {
+            "id": "45740c14-d561-4823-a377-ff7938d63055",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "b1e8ef27-20fa-4e28-9549-0346ae2800e8",
+            "propertyId": "dd819dc8-8fde-4e6d-9978-d436c502a080",
+            "value": "1"
+        }
+    ],
+    "parentObjectId": "b1e8ef27-20fa-4e28-9549-0346ae2800e8",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

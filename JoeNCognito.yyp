@@ -415,14 +415,6 @@
             }
         },
         {
-            "Key": "5c2aac8a-6260-4e65-a926-1e59ddff7276",
-            "Value": {
-                "id": "c48251ba-ad39-4dca-b53d-f72b9a24a7b2",
-                "resourcePath": "objects\\obj_playerCoat\\obj_playerCoat.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "5cde98d8-8d0d-4e85-b426-d69e63239cb3",
             "Value": {
                 "id": "e8708369-b3f8-43d6-b5f8-bbbefa6c2706",
@@ -655,14 +647,6 @@
             }
         },
         {
-            "Key": "863fe2b2-1e72-4bdd-b1ac-db4ae34340ea",
-            "Value": {
-                "id": "922ad0c7-afc7-41db-b987-598f20564d3a",
-                "resourcePath": "objects\\obj_playerGun\\obj_playerGun.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "864d21cb-5d26-456f-bb93-92a26283287b",
             "Value": {
                 "id": "e7bbd95c-8b82-43a5-aa31-d586c246dfc2",
@@ -843,6 +827,14 @@
             "Value": {
                 "id": "31f1bbf1-8cc6-4b06-b054-1d4f8a4ef508",
                 "resourcePath": "objects\\obj_gun\\obj_gun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b1e8ef27-20fa-4e28-9549-0346ae2800e8",
+            "Value": {
+                "id": "9c5158c2-fde4-4580-ad21-f5325e7a3218",
+                "resourcePath": "objects\\obj_tool_base\\obj_tool_base.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1044,14 +1036,6 @@
                 "id": "eb8d418e-465e-4ea1-b853-3607833c1838",
                 "resourcePath": "views\\d54e2a3a-d63e-4c78-9453-b7a8800bb28f.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "d5b50b8d-7a24-43ed-9cc1-84640a9492ed",
-            "Value": {
-                "id": "4e54d96c-c29b-49ab-977b-146169554542",
-                "resourcePath": "objects\\obj_playerController\\obj_playerController.yy",
-                "resourceType": "GMObject"
             }
         },
         {

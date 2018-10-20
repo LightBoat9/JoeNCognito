@@ -5,7 +5,7 @@ if(obj_gameController.hasGun)
 	draw_sprite_ext(spr_gun, 0, 32, room_height - 66 * 2, 1, 1, 0, c_white, 0.2)
 	if obj_effectTimer.alarm[2] > 0 {
 		draw_set_alpha(0.5)
-		draw_sprite_part(spr_gun, 0, 0, 0, 30 - 30 * obj_effectTimer.alarm[2] / 250, 24, 32, room_height - 132)
+		draw_sprite_part(spr_gun, 0, 0, 0, 30 - 30 * obj_effectTimer.alarm[2] / (cooldown_gun*30), 24, 32, room_height - 132)
 		draw_set_alpha(1)
 	}
 	if obj_gameController.canShoot {
@@ -19,7 +19,7 @@ if(obj_gameController.hasCoat)
 	draw_sprite_ext(spr_coat, 0, 32, room_height - 34 * 3, 1, 1, 0, c_white, 0.2)
 	if obj_effectTimer.alarm[1] > 0 {
 		draw_set_alpha(0.5)
-		draw_sprite_part(spr_coat, 0, 0, 0, 32 - 32 * obj_effectTimer.alarm[1] / 380, 32, 32, room_height - 34 * 3)
+		draw_sprite_part(spr_coat, 0, 0, 0, 32 - 32 * obj_effectTimer.alarm[1] / (cooldown_invisible*30), 32, 32, room_height - 34 * 3)
 		draw_set_alpha(1)
 	}
 	if obj_gameController.canCoat {
@@ -33,7 +33,7 @@ if(obj_gameController.hasProjector)
 	draw_sprite_ext(spr_projector, 0, 32, room_height - 39 * 5, 1, 1, 0, c_white, 0.2)
 	if obj_effectTimer.alarm[3] > 0 {
 		draw_set_alpha(0.5)
-		draw_sprite_part(spr_projector, 0, 0, 0, 30 - 30 * obj_effectTimer.alarm[3] / 750, 59, 32, room_height - 39 * 5)
+		draw_sprite_part(spr_projector, 0, 0, 0, 30 - 30 * obj_effectTimer.alarm[3] / (cooldown_sound*30), 59, 32, room_height - 39 * 5)
 		draw_set_alpha(1)
 	}
 	if obj_gameController.canProjector {

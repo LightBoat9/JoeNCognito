@@ -1,7 +1,5 @@
 /// @description Initialize movement and angle
 // You can write your code in this editor
-
-movement = Movement.idle;
 angle = 0;
 
 xSpd = 0

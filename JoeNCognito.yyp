@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "5ba6a4cc-6c15-4746-a0b8-2329d2530b62",
+            "Value": {
+                "id": "caa69151-4a1b-4fe0-9ff5-0e7948874e62",
+                "resourcePath": "shaders\\shade_invis\\shade_invis.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "5cde98d8-8d0d-4e85-b426-d69e63239cb3",
             "Value": {
                 "id": "e8708369-b3f8-43d6-b5f8-bbbefa6c2706",

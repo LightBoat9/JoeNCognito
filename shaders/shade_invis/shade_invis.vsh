@@ -8,6 +8,7 @@ attribute vec2 in_TextureCoord;              // (u,v)
 
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
+varying vec3 v_vPos;
 
 void main()
 {
@@ -16,4 +17,5 @@ void main()
     
     v_vColour = in_Colour;
     v_vTexcoord = in_TextureCoord;
+	v_vPos = in_Position;
 }

@@ -12,3 +12,6 @@ tilemap_collision = layer_tilemap_get_id(layer_get_id("layer_collision_tiles"))
 sbar_width = 192
 sbar_height = 32 
 sbar_position = [32, room_height - 64]
+
+invisIterator = 0 //iterator for invis shader
+invisUniform = shader_get_uniform(shade_invis,"iter")

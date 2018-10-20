@@ -1,8 +1,12 @@
+event_inherited()
+xSpd = 0
+ySpd = 0
+
 var lineOfSight = enemy_lineOfSight();
 
 switch(state){
 	case chaser.idle:
-		if lineOfSight {
+		if !disabled && lineOfSight {
 			state = chaser.chasing
 		} else break;
 	case chaser.chasing:

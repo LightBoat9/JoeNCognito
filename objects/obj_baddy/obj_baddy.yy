@@ -4,7 +4,56 @@
     "mvc": "1.0",
     "name": "obj_baddy",
     "eventList": [
-        
+        {
+            "id": "481bd035-9e92-4e63-9837-60f66da10c0b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "e12a53ae-fb93-4b1f-922d-132248eac703"
+        },
+        {
+            "id": "6a7cd9ab-7e3d-45bd-95cd-7a9bf2363c34",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "e12a53ae-fb93-4b1f-922d-132248eac703"
+        },
+        {
+            "id": "3ecd7787-c230-4e59-95b6-b53b892acb1a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 7,
+            "m_owner": "e12a53ae-fb93-4b1f-922d-132248eac703"
+        },
+        {
+            "id": "7f8a0f08-5f3e-4d23-8fef-d21477009e5d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "e12a53ae-fb93-4b1f-922d-132248eac703"
+        },
+        {
+            "id": "0f15b69d-c037-48f5-a357-acfc37044b7f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "4fa8b5d6-57e3-404d-bb6a-cb901295adf0",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "e12a53ae-fb93-4b1f-922d-132248eac703"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -78,6 +127,20 @@
             "value": "noone",
             "varName": "soundScript",
             "varType": 5
+        },
+        {
+            "id": "8e1c91fb-893d-4bbb-a292-4fd4c921ce38",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "stunTime",
+            "varType": 1
         }
     ],
     "solid": false,

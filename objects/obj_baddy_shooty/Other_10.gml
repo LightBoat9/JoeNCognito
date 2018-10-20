@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-event_inherited()
 
-state = chaser.idle
+// Inherit the parent event
+event_inherited();
+
+alarm[1]=-1
+state = turret.idle

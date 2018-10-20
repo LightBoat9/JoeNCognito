@@ -13,7 +13,7 @@
     "layers": [
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "layer_collision_furniture",
+            "name": "layer_collision_tiles_furniture",
             "id": "1a653033-841c-426d-a8f2-59a4c90d742d",
             "depth": 0,
             "grid_x": 32,

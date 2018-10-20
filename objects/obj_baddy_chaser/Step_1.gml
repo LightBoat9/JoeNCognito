@@ -8,34 +8,26 @@ switch(state){
 	case chaser.idle:
 		if !disabled && lineOfSight {
 			state = chaser.chasing
+			motionPlan_pointOfInterest(obj_playerParent.x,obj_playerParent.y)
+			alarm[1] = 15
 		} else break;
 	case chaser.chasing:
 		if !lineOfSight {
+			alarm[1] = -1
+			motionPlan_pointOfInterest(obj_playerParent.x,obj_playerParent.y)
 			state = chaser.pathing
-			motionPlan_pointOfInterest(chase_x,chase_y) //investigate last known position of player
-			break;
-		} else {
-			chase_x = targetObj.x
-			chase_y = targetObj.y
-			
-			var dx = chase_x-x,
-				dy = chase_y-y,
-				mag = sqrt(sqr(dx)+sqr(dy));
-			
-			
-			//xSpd = round((dx/mag) * min(walkSpd,abs(dx)))
-			//ySpd = round((dy/mag) * min(walkSpd,abs(dy)))
-			xSpd = clamp(dx,-walkSpd,walkSpd)
-			ySpd = clamp(dy,-walkSpd,walkSpd)
-			
-			break;
+		} else if !motionPlan_process(motionPath){
+			//refresh path
+			motionPlan_pointOfInterest(obj_playerParent.x,obj_playerParent.y)
+			alarm[1] = 15
 		}
+		
+		break;
 	case chaser.pathing:
-		//actually seeing the player overrides everything
 		if lineOfSight {
-			path_clear_points(motionPath)
 			state = chaser.chasing
-			break;
+			motionPlan_pointOfInterest(obj_playerParent.x,obj_playerParent.y)
+			alarm[1] = 15
 		}
 		
 		//when chaser reaches a path location it'll get a nice look around before settling

@@ -19,7 +19,6 @@ chase_y = 0
 
 //checking - pathfinding to point of interest
 motionPlan = tilemap_to_mp(tileLayer)
-motionPlan_addTileMap(motionPlan,layer_get_id("layer_collision_tiles_furniture"))
 mp_grid_add_instances(motionPlan,obj_wallParent,false)
 
 motionPath = path_add()

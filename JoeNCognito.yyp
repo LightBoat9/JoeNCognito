@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "2956ec1a-8b69-420d-aa8d-6be6d46dc594",
+            "Value": {
+                "id": "571c57a7-0a8f-4463-b816-d58dbcc0172b",
+                "resourcePath": "objects\\obj_baddy_chaser_old\\obj_baddy_chaser_old.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2a29f165-8691-4a8d-83f0-207ba328ce9a",
             "Value": {
                 "id": "74880501-5351-4801-a0d8-22156bac2174",
@@ -620,6 +628,14 @@
                 "id": "1dcb6be6-622a-4706-bb80-2e001f6a2c74",
                 "resourcePath": "views\\6a4fd372-85a5-432e-8d1f-64050f481b31.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6ca99674-5600-47d8-9146-b985a81c8f72",
+            "Value": {
+                "id": "76b05591-02d8-4779-82f1-1bffebe3100e",
+                "resourcePath": "scripts\\motionPlan_addTileMap\\motionPlan_addTileMap.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1383,6 +1399,7 @@
         "bc56e7b4-e1c5-42bd-9243-a8a43f922ef2",
         "7cc4ba93-2fd5-41ba-9fbf-b8cc47f43987",
         "43fae666-dacf-416a-9173-5806359bc3fb",
+        "6ca99674-5600-47d8-9146-b985a81c8f72",
         "614919e1-2ac8-4cd1-a2c5-ed1ca0f5cbf5",
         "38a207af-22a0-4043-860b-d16ee0416a80",
         "9b9a29d5-0750-447a-8846-d739bafb755a",

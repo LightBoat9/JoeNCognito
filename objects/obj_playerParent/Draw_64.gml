@@ -2,7 +2,7 @@
 // Gun GUI
 if(obj_gameController.hasGun)
 {
-	draw_sprite_ext(spr_gun, 0, 32, room_height - 66 * 2, 1, 1, 0, c_white, 0.2)
+	draw_sprite_ext(spr_gun, 0, 32, - 66 * 2, 1, 1, 0, c_white, 0.2)
 	if obj_effectTimer.alarm[2] > 0 {
 		draw_set_alpha(0.5)
 		draw_sprite_part(spr_gun, 0, 0, 0, 30 - 30 * obj_effectTimer.alarm[2] / (cooldown_gun*30), 24, 32, room_height - 132)

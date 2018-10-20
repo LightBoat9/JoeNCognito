@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "086b46f8-d622-49b3-8832-472ef8ac2fc8",
+            "Value": {
+                "id": "5651b2c4-7856-4dde-a6eb-8d8f918ad3e0",
+                "resourcePath": "rooms\\rm_level3\\rm_level3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0a6d5f4b-fc77-4262-8a53-70718d035955",
             "Value": {
                 "id": "dea48c5a-6f78-4b89-8a1b-cfbf140037fb",
@@ -76,6 +84,14 @@
                 "id": "9224aabf-2d89-4f99-9368-2a60c40c0eea",
                 "resourcePath": "objects\\obj_door_up\\obj_door_up.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0f1fd12b-017b-4a27-b52e-8c10e43e6543",
+            "Value": {
+                "id": "9f1dd2df-cd84-4029-8ce9-fef5d320ffbf",
+                "resourcePath": "rooms\\rm_level1\\rm_level1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -332,6 +348,14 @@
                 "id": "e4bb6fb9-efee-4598-ba8a-dc7a8ed35dc7",
                 "resourcePath": "scripts\\tilemap_to_mp\\tilemap_to_mp.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "44599921-f6e8-49f2-9d2b-9285abea1804",
+            "Value": {
+                "id": "d680d4c8-9fcb-4934-b789-5a298dcaf0a2",
+                "resourcePath": "rooms\\rm_level2\\rm_level2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -668,6 +692,14 @@
                 "id": "29df055d-9a5f-4e50-8847-1650c8ba79de",
                 "resourcePath": "scripts\\motionPlan_process\\motionPlan_process.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7fd62cb2-c3da-4c48-bc10-6679ed74965b",
+            "Value": {
+                "id": "1bb52766-c9f5-48db-9551-817b9287352e",
+                "resourcePath": "views\\7fd62cb2-c3da-4c48-bc10-6679ed74965b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1076,6 +1108,14 @@
                 "id": "a4a2bc6f-2118-47bc-a5d2-0b457b5661d3",
                 "resourcePath": "sounds\\snd_lv2\\snd_lv2.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "c9c1e3ce-2993-4f61-bbce-bf6d460251da",
+            "Value": {
+                "id": "7a64781c-9e6a-4b12-9798-d19e5073d108",
+                "resourcePath": "rooms\\rm_level4\\rm_level4.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

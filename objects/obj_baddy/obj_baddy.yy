@@ -141,6 +141,20 @@
             "value": "3",
             "varName": "stunTime",
             "varType": 1
+        },
+        {
+            "id": "997fd523-57f8-43b6-bc3c-649712168367",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "256",
+            "varName": "viewRadius",
+            "varType": 1
         }
     ],
     "solid": false,

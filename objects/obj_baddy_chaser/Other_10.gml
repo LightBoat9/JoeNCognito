@@ -3,3 +3,5 @@
 event_inherited()
 
 state = chaser.idle
+alarm[1]=-1
+path_clear_points(motionPath)

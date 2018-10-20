@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "206aa012-9afe-40b9-a6bb-bae65e51737f",
+            "Value": {
+                "id": "dc04e06d-70cb-4884-a3aa-2f235c75200a",
+                "resourcePath": "scripts\\movement_check_projectile\\movement_check_projectile.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "20779e46-d7b6-44cb-9cf2-91e9a27eb40c",
             "Value": {
                 "id": "a646f0fc-8196-4697-936f-be99f84f709a",
@@ -1403,7 +1411,8 @@
         "614919e1-2ac8-4cd1-a2c5-ed1ca0f5cbf5",
         "38a207af-22a0-4043-860b-d16ee0416a80",
         "9b9a29d5-0750-447a-8846-d739bafb755a",
-        "2e9e4b52-aee0-48eb-8636-974621554970"
+        "2e9e4b52-aee0-48eb-8636-974621554970",
+        "206aa012-9afe-40b9-a6bb-bae65e51737f"
     ],
     "tutorial": ""
 }

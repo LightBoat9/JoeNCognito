@@ -4,7 +4,7 @@
 with(obj_gameController)
 {
 	ini_open("Saving")
-	ini_write_real("Level", "currentRoom", room0)
+	ini_write_real("Level", "currentRoom", rm_level2)
 	ini_write_real("Items", "numKeys", numKeys)
 	if (actualUnlocks[0]) {ini_write_real("Items", "hasGun", true)}
 	if (actualUnlocks[1]) {ini_write_real("Items", "hasCoat", true)}
@@ -13,4 +13,4 @@ with(obj_gameController)
 }
 
 
-room_goto(room0)
+room_goto(rm_level2)

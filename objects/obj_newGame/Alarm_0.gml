@@ -13,4 +13,4 @@ with(obj_gameController)
 	ini_close()
 }
 
-room_goto(rm_enemyIntegrationTest)
+room_goto(rm_level1)

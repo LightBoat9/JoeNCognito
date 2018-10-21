@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "1ec9f075-85f8-4334-ae71-aecd12244b36",
+            "Value": {
+                "id": "6bce02cb-023f-4795-a87c-9201b6f4f7e8",
+                "resourcePath": "sprites\\spr_tile2Darker\\spr_tile2Darker.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1ff860c8-d765-4605-b239-9ccd4d77b8c0",
             "Value": {
                 "id": "3d95c202-75af-485d-929b-0ab998169eae",
@@ -900,6 +908,14 @@
                 "id": "03cf79a2-91f3-43eb-b959-da5dfa75a84e",
                 "resourcePath": "objects\\obj_infiniteSprint\\obj_infiniteSprint.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9697a475-f961-443d-b874-a038a2af5776",
+            "Value": {
+                "id": "69abaac0-fc9e-4cab-9ab8-b2435d2c549f",
+                "resourcePath": "tilesets\\tile2Darker\\tile2Darker.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {

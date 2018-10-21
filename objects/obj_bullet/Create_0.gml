@@ -3,6 +3,8 @@
 
 event_inherited();
 
+audio_play_sound(snd_Gun, 1, false)
+
 dir = point_direction(x,y, mouse_x,mouse_y)
 
 // Set the amount of time that the bullet can travel for

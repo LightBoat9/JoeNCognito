@@ -4,9 +4,15 @@ var dv = movement_application(xSpd,ySpd);
 
 switch(state){
 	case chaser.pathing:
+		if (!audio_is_playing(snd_helicoptGrabber) && obj_gameController.soundOn){
+			audio_play_sound(snd_helicoptGrabber, 1, false)
+		}
 		if (dv[0]!=0 || dv[1]!=0) then angle_target = point_direction(0,0,xSpd,ySpd)
 		break;
 	case chaser.chasing:
+		if (!audio_is_playing(snd_helicoptGrabber) && obj_gameController.soundOn){
+			audio_play_sound(snd_helicoptGrabber, 1, false)
+		}
 		angle_target = point_direction(x,y,obj_playerParent.x,obj_playerParent.y)
 		break;
 }

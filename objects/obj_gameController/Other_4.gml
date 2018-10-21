@@ -36,3 +36,20 @@ else
 	hasCoat = true
 	hasProjector = true
 }
+
+if(musicOn)
+{
+	if (room == rm_level1) 
+		audio_play_sound(snd_lv1, 2, true)
+	else if (room == rm_level2){
+		audio_stop_sound(snd_lv1)
+		audio_play_sound(snd_lv2, 2, true)
+	}else if(room == rm_level3){
+		audio_stop_sound(snd_lv2)
+		audio_play_sound(snd_lv3, 2, true)
+	}else if(room == rm_level4){
+		audio_stop_sound(snd_lv3)
+		audio_play_sound(snd_lv4, 2, true)
+	}
+		
+}

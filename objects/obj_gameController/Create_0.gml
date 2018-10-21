@@ -29,15 +29,8 @@ allUnlocks = false
 noDeaths = false
 
 currentRoom = rm_mainMenu
+currentBGM = noone
 
-cam = camera_create()
 surface_resize(application_surface, cam_width, cam_height)
 window_set_size(cam_width, cam_height)
-camera_set_view_size(cam, cam_width, cam_height)
-camera_set_view_target(cam, obj_player)
-camera_set_view_speed(cam, 5, 5)
-camera_set_view_border(cam, cam_width/2, cam_height/2)
-view_enabled = true
-view_camera[0] = cam
-view_visible[0] = true
 window_center()

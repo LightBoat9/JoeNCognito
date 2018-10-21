@@ -37,19 +37,47 @@ else
 	hasProjector = true
 }
 
+
+//audio processing
+
 if(musicOn)
 {
+	var oldSound = currentBGM;
 	if (room == rm_level1) 
-		audio_play_sound(snd_lv1, 2, true)
+		currentBGM = snd_lv1
 	else if (room == rm_level2){
-		audio_stop_sound(snd_lv1)
-		audio_play_sound(snd_lv2, 2, true)
+		currentBGM = snd_lv1
 	}else if(room == rm_level3){
-		audio_stop_sound(snd_lv2)
-		audio_play_sound(snd_lv3, 2, true)
+		currentBGM = snd_lv1
 	}else if(room == rm_level4){
-		audio_stop_sound(snd_lv3)
-		audio_play_sound(snd_lv4, 2, true)
+		currentBGM = snd_lv1
 	}
-		
+	
+	if oldSound != currentBGM {
+		audio_stop_sound(oldSound)
+		audio_play_sound(currentBGM,0,true)
+	}
 }
+
+//set view of room to The Good Camera
+cam = camera_create()
+camera_set_view_size(cam, cam_width, cam_height)
+camera_set_view_target(cam, obj_playerParent)
+camera_set_view_speed(cam, 5, 5)
+camera_set_view_border(cam, cam_width/2, cam_height/2)
+view_enabled = true
+view_camera[0] = cam
+view_visible[0] = true
+
+//center camera on player as best as you can
+var xx,yy,cx,cy;
+
+with obj_playerParent {
+	xx = x
+	yy = y
+}
+
+cx = clamp(xx-cam_width/2,0,room_width-cam_width)
+cy = clamp(yy-cam_height/2,0,room_height-cam_height)
+
+camera_set_view_pos(cam,cx,cy)

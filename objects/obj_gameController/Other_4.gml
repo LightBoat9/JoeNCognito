@@ -43,41 +43,45 @@ else
 if(musicOn)
 {
 	var oldSound = currentBGM;
-	if (room == rm_level1) 
+	if (room == rm_level1){
 		currentBGM = snd_lv1
-	else if (room == rm_level2){
-		currentBGM = snd_lv1
+	}else if (room == rm_level2){
+		currentBGM = snd_lv2
 	}else if(room == rm_level3){
-		currentBGM = snd_lv1
+		currentBGM = snd_lv3
 	}else if(room == rm_level4){
-		currentBGM = snd_lv1
-	}
+		currentBGM = snd_lv4
+	}/*else if(room = rm_mainMenu || room = rm_options){
+		currentBGM = snd_menu
+	}*/
 	
 	if oldSound != currentBGM {
 		audio_stop_sound(oldSound)
-		audio_play_sound(currentBGM,0,true)
+		audio_play_sound(currentBGM,2,true)
 	}
 }
 
-//set view of room to The Good Camera
-cam = camera_create()
-camera_set_view_size(cam, cam_width, cam_height)
-camera_set_view_target(cam, obj_playerParent)
-camera_set_view_speed(cam, 5, 5)
-camera_set_view_border(cam, cam_width/2, cam_height/2)
-view_enabled = true
-view_camera[0] = cam
-view_visible[0] = true
-
-//center camera on player as best as you can
-var xx,yy,cx,cy;
-
-with obj_playerParent {
-	xx = x
-	yy = y
+if (room != rm_mainMenu && room != rm_options) {
+	//set view of room to The Good Camera
+	cam = camera_create()
+	camera_set_view_size(cam, cam_width, cam_height)
+	camera_set_view_target(cam, obj_playerParent)
+	camera_set_view_speed(cam, 5, 5)
+	camera_set_view_border(cam, cam_width/2, cam_height/2)
+	view_enabled = true
+	view_camera[0] = cam
+	view_visible[0] = true
+	
+	//center camera on player as best as you can
+	var xx,yy,cx,cy;
+	
+	with obj_playerParent {
+		xx = x
+		yy = y
+	}
+	
+	cx = clamp(xx-cam_width/2,0,room_width-cam_width)
+	cy = clamp(yy-cam_height/2,0,room_height-cam_height)
+	
+	camera_set_view_pos(cam,cx,cy)
 }
-
-cx = clamp(xx-cam_width/2,0,room_width-cam_width)
-cy = clamp(yy-cam_height/2,0,room_height-cam_height)
-
-camera_set_view_pos(cam,cx,cy)

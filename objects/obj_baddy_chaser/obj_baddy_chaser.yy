@@ -84,6 +84,22 @@
             "objectId": "e12a53ae-fb93-4b1f-922d-132248eac703",
             "propertyId": "03116a90-52dc-48c6-9a3b-150fbbfc3ce5",
             "value": "enemy_soundScript_chaser"
+        },
+        {
+            "id": "bf7b28a5-cfa3-432f-ac3c-f5ea7ceb3706",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "e12a53ae-fb93-4b1f-922d-132248eac703",
+            "propertyId": "c63bd4d9-44b7-4ab5-8aaf-bd11f1649491",
+            "value": "10"
+        },
+        {
+            "id": "f77e9b77-6c7c-4198-bc2b-f17a03510e09",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "e12a53ae-fb93-4b1f-922d-132248eac703",
+            "propertyId": "997fd523-57f8-43b6-bc3c-649712168367",
+            "value": "192"
         }
     ],
     "parentObjectId": "e12a53ae-fb93-4b1f-922d-132248eac703",
@@ -111,7 +127,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
+            "value": "4",
             "varName": "walkSpd",
             "varType": 1
         },
@@ -139,7 +155,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "4",
+            "value": "2",
             "varName": "sweepSpd",
             "varType": 1
         }

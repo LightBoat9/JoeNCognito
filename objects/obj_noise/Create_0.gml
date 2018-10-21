@@ -3,5 +3,9 @@
 
 event_inherited()
 
-stopPoint_x = mouse_x
-stopPoint_y = mouse_y
+dx = mouse_x-x
+dy = mouse_y-y
+
+dir = point_direction(0,0,dx,dy)
+xSpd = maxSpd * dcos(dir)
+ySpd = maxSpd * -dsin(dir)

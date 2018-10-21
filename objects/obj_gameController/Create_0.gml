@@ -30,8 +30,6 @@ noDeaths = false
 
 currentRoom = rm_mainMenu
 
-cam_width = 1024
-cam_height = 576
 cam = camera_create()
 surface_resize(application_surface, cam_width, cam_height)
 window_set_size(cam_width, cam_height)

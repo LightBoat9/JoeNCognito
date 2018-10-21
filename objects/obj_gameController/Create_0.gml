@@ -2,6 +2,10 @@
 hasGun = false
 hasCoat = false
 hasProjector = false
+// Keeps track of what items the player has picked up
+// This is necessary for the player to revert back to the proper
+// state when cheat codes are turned off.
+actualUnlocks = [hasGun, hasCoat, hasProjector]
 
 // Keep track of the abilities the player can use
 // If cooldown is complete, these variables are true)
@@ -24,8 +28,6 @@ infiniteSprint = false
 allUnlocks = false
 noDeaths = false
 
-// Keeps track of what items the player has picked up
-// This is necessary for the player to revert back to the proper
-// state when cheat codes are turned off.
-actualUnlocks = [hasGun, hasCoat, hasProjector]
+currentRoom = rm_mainMenu
+
 

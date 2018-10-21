@@ -9,12 +9,12 @@ ini_open("Options")
 if(image_index == 0)
 {
 	ini_write_real("Cheats", "noDeaths", true)
-	//obj_gameController.noDeaths = true
+	obj_gameController.noDeaths = true
 }
 else
 {
 	ini_write_real("Cheats", "noDeaths", false)
-	//obj_gameController.noDeaths = false
+	obj_gameController.noDeaths = false
 }
 
 ini_close()

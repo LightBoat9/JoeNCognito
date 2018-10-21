@@ -7,7 +7,7 @@
 if(obj_gameController.hasProjector && obj_gameController.canProjector)
 {
 	// Gives the object a layer to be created on
-	instance_create_layer(x,y,layer_get_id("Character_Layer"), obj_noise)
+	instance_create_layer(x,y,layer, obj_noise)
 	obj_gameController.canProjector = false
 	
 	// Set the cooldown

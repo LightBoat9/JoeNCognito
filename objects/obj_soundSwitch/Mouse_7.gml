@@ -10,12 +10,12 @@ if(image_index == 0)
 {
 	
 	ini_write_real("Volume", "soundOn", true)
-	//obj_gameController.soundOn = true
+	obj_gameController.soundOn = true
 }
 else
 {
 	ini_write_real("Volume", "soundOn", false)
-	//obj_gameController.soundOn = false
+	obj_gameController.soundOn = false
 }
 
 ini_close()

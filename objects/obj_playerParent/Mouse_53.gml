@@ -7,7 +7,7 @@
 if(obj_gameController.hasGun && obj_gameController.canShoot)
 {
 	// Give the bullet a layer to be created on
-	instance_create_layer(x,y,layer_get_id("Character_Layer"), obj_bullet)
+	instance_create_layer(x,y,layer, obj_bullet)
 	
 	//show_debug_message(instance_exists(obj_bullet))
 	

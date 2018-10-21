@@ -1,15 +1,23 @@
-/// @description Keep track of player state
+/// @description Keep track of items, options, and location
 
 // Checks the "Options" file for the options the user has chosen.
 // Updates the variables in gameController based on the file.
 // If the variable doesn't exist in the file, use 1 or 0 as the default
 ini_open("Options")
-soundOn = ini_read_real("Volume", "soundOn", 1)
-musicOn = ini_read_real("Volume", "musicOn", 1)
-infiniteKeys = ini_read_real("Cheats", "infiniteKeys", 0)
-infiniteSprint = ini_read_real("Cheats", "infiniteSprint", 0)
-allUnlocks = ini_read_real("Cheats", "allUnlocks", 0)
-noDeaths = ini_read_real("Cheats", "noDeaths", 0)
+soundOn = ini_read_real("Volume", "soundOn", true)
+musicOn = ini_read_real("Volume", "musicOn", true)
+infiniteKeys = ini_read_real("Cheats", "infiniteKeys", false)
+infiniteSprint = ini_read_real("Cheats", "infiniteSprint", false)
+allUnlocks = ini_read_real("Cheats", "allUnlocks", false)
+noDeaths = ini_read_real("Cheats", "noDeaths", false)
+ini_close()
+
+ini_open("Saving")
+currentRoom = ini_read_real("Level", "currentRoom", rm_mainMenu)
+numKeys = ini_read_real("Items", "numKeys", 0)
+actualUnlocks[0] = ini_read_real("Items", "hasGun", false)
+actualUnlocks[1] = ini_read_real("Items", "hasCoat", false)
+actualUnlocks[2] = ini_read_real("Items", "hasProjector", false)
 ini_close()
 
 // If the "All Unlocks" cheat is turned off, set player to the proper object based on 
@@ -18,8 +26,8 @@ ini_close()
 if(!allUnlocks)
 {
 	hasGun = actualUnlocks[0]
-	hasProjector = actualUnlocks[1]
-	hasCoat = actualUnlocks[2]
+	hasCoat = actualUnlocks[1]
+	hasProjector = actualUnlocks[2]
 	
 }
 else
@@ -28,6 +36,3 @@ else
 	hasCoat = true
 	hasProjector = true
 }
-
-
-

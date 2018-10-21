@@ -1,7 +1,7 @@
 /// @description Disable if not paused game
 // You can write your code in this editor
 
-if (!file_exists("Save.dat"))
+if (obj_gameController.currentRoom == rm_mainMenu)
 {
 	image_alpha = 0
 }

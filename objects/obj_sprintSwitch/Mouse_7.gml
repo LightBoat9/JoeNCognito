@@ -9,12 +9,12 @@ ini_open("Options")
 if(image_index == 0)
 {
 	ini_write_real("Cheats", "infiniteSprint", true)
-	//obj_gameController.infiniteSprint = true
+	obj_gameController.infiniteSprint = true
 }
 else
 {
 	ini_write_real("Cheats", "infiniteSprint", false)
-	//obj_gameController.infiniteSprint = false
+	obj_gameController.infiniteSprint = false
 }
 
 ini_close()

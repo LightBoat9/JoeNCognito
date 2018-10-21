@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "39ba6ecc-5cbe-4d0a-9b50-b940c6a53c77",
+            "Value": {
+                "id": "30400447-03ff-43c6-a9ff-4ddfdf12e171",
+                "resourcePath": "objects\\obj_playerCoat\\obj_playerCoat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3b83805d-9ab5-4038-bd19-046e502b6c9b",
             "Value": {
                 "id": "711f01d2-a5dd-40f5-8791-93409b9f4f33",
@@ -511,6 +519,14 @@
             }
         },
         {
+            "Key": "5ad9da43-85a7-4bf5-9f00-d891045f440b",
+            "Value": {
+                "id": "f32e4dcf-0ba5-42f6-a4ba-301cae0d8309",
+                "resourcePath": "objects\\obj_playerGunANDCoat\\obj_playerGunANDCoat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5ba6a4cc-6c15-4746-a0b8-2329d2530b62",
             "Value": {
                 "id": "caa69151-4a1b-4fe0-9ff5-0e7948874e62",
@@ -668,6 +684,14 @@
                 "id": "96132119-b6af-4f9c-92a5-b077e4e7f4d6",
                 "resourcePath": "sounds\\snd_coatUse\\snd_coatUse.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "70c9b3da-9441-4f1d-82dc-bdd85651c6fa",
+            "Value": {
+                "id": "8f1ad6f0-bf65-4d69-a411-c4b7b3c8ea01",
+                "resourcePath": "objects\\obj_playerGun\\obj_playerGun.yy",
+                "resourceType": "GMObject"
             }
         },
         {

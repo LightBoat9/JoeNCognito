@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Pick up Item
 // You can write your code in this editor
 with obj_gameController{
 	actualUnlocks[other.unlockIndex] = true

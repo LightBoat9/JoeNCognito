@@ -671,6 +671,14 @@
             }
         },
         {
+            "Key": "6da91796-c663-43f2-9e7d-a93ef8c97e0a",
+            "Value": {
+                "id": "47983788-4d38-4100-99ce-e3b17f438de5",
+                "resourcePath": "objects\\obj_baddy_shooty_timed\\obj_baddy_shooty_timed.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6e881b38-a313-422b-a566-3907ee34a717",
             "Value": {
                 "id": "7aed2322-b57c-4097-a561-5f925ecd09f7",
@@ -1132,6 +1140,14 @@
                 "id": "2f5f758d-0b5b-4cb7-83d0-a18a5a64afb6",
                 "resourcePath": "objects\\obj_effectTimer\\obj_effectTimer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c1584acb-ba84-440c-a2e1-7536162ec539",
+            "Value": {
+                "id": "cc64caa6-4102-4f12-8e7b-ba30e1e90b0c",
+                "resourcePath": "timelines\\tml_baddy_shooty\\tml_baddy_shooty.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {

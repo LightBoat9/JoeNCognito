@@ -6,6 +6,9 @@ lineOfSight = enemy_lineOfSight()
 switch(state){
 	case turret.idle:
 		if lineOfSight {
+			if (obj_gameController.soundOn && !audio_is_playing(laserCharge)){
+				audio_play_sound(laserCharge, 1, false)
+			}
 			timeline_index = tml_baddy_shooty;
 			timeline_position = 0;
 			timeline_running = true;
@@ -20,6 +23,7 @@ switch(state){
 			image_index = 0;
 			timeline_running = false;
 			timeline_loop = false;
+			if audio_is_playing(laserCharge) then audio_stop_sound(laserCharge)
 			break;
 		}
 		

@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "162e707b-f5e0-4b7f-b2fe-ff3d0c691b7e",
+            "Value": {
+                "id": "ff95486c-4616-4bf5-9484-74004a3e4f54",
+                "resourcePath": "sounds\\snd_laserCharging\\snd_laserCharging.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "16c1d88e-5e54-4749-a102-df91790e8f3f",
             "Value": {
                 "id": "afa2542c-da1d-4781-977c-fb13da24958c",
@@ -487,6 +495,14 @@
             }
         },
         {
+            "Key": "54945d12-24a4-45e0-b836-b2f7346deb8f",
+            "Value": {
+                "id": "81fc2041-b6b2-45b6-9917-1cedf3086051",
+                "resourcePath": "sounds\\snd_playerDeath\\snd_playerDeath.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "549e5546-e159-4819-8341-b157ba87bd33",
             "Value": {
                 "id": "155fb686-0f91-41bd-ae9d-e1b626a5456e",
@@ -716,6 +732,14 @@
                 "id": "8f1ad6f0-bf65-4d69-a411-c4b7b3c8ea01",
                 "resourcePath": "objects\\obj_playerGun\\obj_playerGun.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "72d45869-197b-4444-8428-fceeadc36214",
+            "Value": {
+                "id": "a462d6ef-9a19-4eca-bd44-44dd57ef6a6f",
+                "resourcePath": "sounds\\snd_menu\\snd_menu.yy",
+                "resourceType": "GMSound"
             }
         },
         {

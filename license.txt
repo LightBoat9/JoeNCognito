@@ -1,0 +1,8 @@
+spr_noise
+	Smoke particle pack by Kenney Vleugels (www.kenney.nl)
+	License (CC0)
+spr_taser
+	GameMaker Tutorial Resources
+	Copyright (c) 2008-2012 Daniel Doubrovkine, Vestris Inc.
+spr_key
+	

@@ -51,9 +51,9 @@ if(musicOn)
 		currentBGM = snd_lv3
 	}else if(room == rm_level4){
 		currentBGM = snd_lv4
-	}/*else if(room = rm_mainMenu || room = rm_options){
+	}else if(room = rm_mainMenu || room = rm_options){
 		currentBGM = snd_menu
-	}*/
+	}
 	
 	if oldSound != currentBGM {
 		audio_stop_sound(oldSound)

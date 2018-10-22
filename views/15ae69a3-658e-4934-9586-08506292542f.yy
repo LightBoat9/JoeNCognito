@@ -5,7 +5,8 @@
     "name": "15ae69a3-658e-4934-9586-08506292542f",
     "children": [
         "97f0fd8e-9d5a-43f1-909f-006e267d5eda",
-        "cc3d92a2-5636-4f4c-b7c9-5614813da4d2"
+        "cc3d92a2-5636-4f4c-b7c9-5614813da4d2",
+        "162e707b-f5e0-4b7f-b2fe-ff3d0c691b7e"
     ],
     "filterType": "GMSound",
     "folderName": "enemies",

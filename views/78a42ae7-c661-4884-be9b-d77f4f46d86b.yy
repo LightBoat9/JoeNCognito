@@ -7,7 +7,8 @@
         "41a64e95-77b1-4390-a321-c3f2e5a06de6",
         "c8dd6710-d79a-4139-a83e-61e6874cdaec",
         "1a897f62-8b63-424f-a091-d17f4dc232d5",
-        "92db0d1b-0b16-4504-9eb0-ecad3d23d122"
+        "92db0d1b-0b16-4504-9eb0-ecad3d23d122",
+        "72d45869-197b-4444-8428-fceeadc36214"
     ],
     "filterType": "GMSound",
     "folderName": "background",

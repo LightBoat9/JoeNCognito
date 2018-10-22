@@ -4,6 +4,9 @@
 // Open the "Options" file and under the "Volume" section,
 // set musicOn value based on button's state.
 // Then close the file.
+
+audio_stop_all()
+
 ini_open("Options")
 
 if(image_index == 0)

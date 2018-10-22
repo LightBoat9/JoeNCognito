@@ -1,8 +1,8 @@
 {
-    "id": "97f0fd8e-9d5a-43f1-909f-006e267d5eda",
+    "id": "72d45869-197b-4444-8428-fceeadc36214",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_laser",
+    "name": "snd_menu",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

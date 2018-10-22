@@ -8,3 +8,5 @@ image_angle = 0
 
 state = turret.idle
 shootCastTime = 30
+
+laserCharge = snd_laserCharging

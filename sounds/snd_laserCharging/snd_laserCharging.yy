@@ -1,8 +1,8 @@
 {
-    "id": "97f0fd8e-9d5a-43f1-909f-006e267d5eda",
+    "id": "162e707b-f5e0-4b7f-b2fe-ff3d0c691b7e",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_laser",
+    "name": "snd_laserCharging",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 1
+    "volume": 0.6
 }

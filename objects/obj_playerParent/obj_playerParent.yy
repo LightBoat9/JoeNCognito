@@ -194,7 +194,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "12",
+            "value": "4",
             "varName": "cooldown_invisible",
             "varType": 1
         }

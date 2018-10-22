@@ -32,11 +32,11 @@
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 10,
+                "enumb": 5,
                 "eventtype": 0,
                 "m_owner": "c1584acb-ba84-440c-a2e1-7536162ec539"
             },
-            "moment": 10
+            "moment": 5
         },
         {
             "id": "82605783-a986-4c65-8d69-beb466e071eb",
@@ -49,11 +49,11 @@
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 20,
+                "enumb": 10,
                 "eventtype": 0,
                 "m_owner": "c1584acb-ba84-440c-a2e1-7536162ec539"
             },
-            "moment": 20
+            "moment": 10
         },
         {
             "id": "e27e6d26-56e8-4b72-97df-991c2f1afa00",
@@ -66,11 +66,11 @@
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 30,
+                "enumb": 15,
                 "eventtype": 0,
                 "m_owner": "c1584acb-ba84-440c-a2e1-7536162ec539"
             },
-            "moment": 30
+            "moment": 15
         },
         {
             "id": "962f6b60-cf18-419b-ac73-00d310ce6bd0",
@@ -83,11 +83,11 @@
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 40,
+                "enumb": 20,
                 "eventtype": 0,
                 "m_owner": "c1584acb-ba84-440c-a2e1-7536162ec539"
             },
-            "moment": 40
+            "moment": 20
         },
         {
             "id": "15829a14-92bb-45df-9949-452b3bee6196",
@@ -100,11 +100,11 @@
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 50,
+                "enumb": 25,
                 "eventtype": 0,
                 "m_owner": "c1584acb-ba84-440c-a2e1-7536162ec539"
             },
-            "moment": 50
+            "moment": 25
         }
     ]
 }

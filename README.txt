@@ -27,7 +27,7 @@ Projector - Launches a sound device that distracts all nearby robots
 
 Cheat Descriptions:
 Infinite Keys - Allows Joe to unlock a door without having keys 
-				(the key counter still decrements if joe picks up a key and goes through the door)
+		(the key counter still decrements if joe picks up a key and goes through the door)
 Infinite Sprint - Allows Joe to run infinitely
 All Unlocks - Gives Joe all items
 No Deaths - Allows Joe to walk through robots without losing the game

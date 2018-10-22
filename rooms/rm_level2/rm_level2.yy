@@ -31,7 +31,7 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Instances",
+            "name": "Character_Layer",
             "id": "28c0be70-d1bd-48a4-8f53-d5ac28cb77ed",
             "depth": 0,
             "grid_x": 16,

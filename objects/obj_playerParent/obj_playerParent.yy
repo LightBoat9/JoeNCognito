@@ -180,7 +180,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "10",
             "varName": "cooldown_sound",
             "varType": 1
         },
@@ -194,7 +194,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "4",
+            "value": "3",
             "varName": "cooldown_invisible",
             "varType": 1
         }

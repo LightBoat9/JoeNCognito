@@ -39,7 +39,7 @@ else
 
 
 //audio processing
-
+if room != rm_mainMenu && room != rm_options then audio_stop_all()
 if(musicOn)
 {
 	var oldSound = currentBGM;

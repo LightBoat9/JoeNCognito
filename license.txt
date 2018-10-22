@@ -1,8 +1,27 @@
+Sprites:
+
 spr_noise
 	Smoke particle pack by Kenney Vleugels (www.kenney.nl)
-	License (CC0)
+Button/Toggle Sprites
+	UI pack by Kenney Vleugels (www.kenney.nl)
 spr_taser
 	GameMaker Tutorial Resources
-	Copyright (c) 2008-2012 Daniel Doubrovkine, Vestris Inc.
 spr_key
-	
+	Key Items Sprite by Aniahmator on DeviantArt
+	https://www.deviantart.com/aniahmator/art/Key-Items-Sprite-639861762
+Door Sprites
+	LPC Animated Doors by Lanea Zimmerman (AKA Sharm) on OpenGameArt
+	https://opengameart.org/content/lpc-animated-doors
+
+
+Sounds/Music:
+
+snd_menu
+	Loading screen loop by Brandon Morris on OpenGameArt
+	https://opengameart.org/content/loading-screen-loop
+snd_laserCharging
+	UFO Takeoff Sound by Sonidor on SoundBible
+	http://soundbible.com/2064-UFO-Takeoff.html
+snd_playerDeath
+	Pain Sound by thecheeseman on SoundBible
+	http://soundbible.com/1454-Pain.html

@@ -31,6 +31,6 @@ noDeaths = false
 currentRoom = rm_mainMenu
 currentBGM = noone
 
-//surface_resize(application_surface, cam_width, cam_height)
-//window_set_size(cam_width, cam_height)
-//window_center()
+surface_resize(application_surface, cam_width, cam_height)
+window_set_size(cam_width, cam_height)
+window_center()

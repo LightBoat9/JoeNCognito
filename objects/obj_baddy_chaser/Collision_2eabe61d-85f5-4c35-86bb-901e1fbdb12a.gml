@@ -1,2 +1,2 @@
 /// @description Ded
-with other event_user(0);
+if !disabled then with other event_user(0);

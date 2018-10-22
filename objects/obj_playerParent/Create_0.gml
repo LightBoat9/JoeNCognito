@@ -6,6 +6,8 @@ xSpd = 0
 ySpd = 0
 sprinting = false
 
+dead = false //dead disables controls 'cause you're dead
+
 tilemap_collision = layer_tilemap_get_id(layer_get_id("layer_collision_tiles"))
 
 tileLayerFurniture = layer_get_id("layer_collision_tiles_furniture")

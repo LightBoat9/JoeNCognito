@@ -290,7 +290,7 @@
             "Key": "333261eb-10ad-4472-b075-f3b4fa885596",
             "Value": {
                 "id": "090c7ae3-0422-4caf-a23d-6746bc233249",
-                "resourcePath": "objects\\obj_toLevel2\\obj_toLevel2.yy",
+                "resourcePath": "objects\\obj_toNextLevel\\obj_toNextLevel.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -443,6 +443,14 @@
             "Value": {
                 "id": "c931287c-fc1c-4df1-9d82-5769d3ac9fa7",
                 "resourcePath": "sprites\\spr_door_down\\spr_door_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4ea6fb57-054e-4e0f-81fd-17322fe0165a",
+            "Value": {
+                "id": "92f47052-9b15-409f-ad5a-aac0b5776f00",
+                "resourcePath": "sprites\\spr_playerDead\\spr_playerDead.yy",
                 "resourceType": "GMSprite"
             }
         },

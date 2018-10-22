@@ -1,4 +1,7 @@
 /// @description movement/sprite application
+
+if dead then exit;
+
 var dv = movement_application(xSpd,ySpd),
 	ds = 0.5;
 

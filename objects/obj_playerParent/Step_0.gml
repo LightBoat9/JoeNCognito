@@ -1,5 +1,7 @@
 /// @description Set speed, motion, image_angle, angle
 
+if dead then exit;
+
 //input reading
 var vectX = keyboard_check(ord("D")) - keyboard_check(ord("A")),
 	vectY = keyboard_check(ord("S")) - keyboard_check(ord("W")),

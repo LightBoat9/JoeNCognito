@@ -42,7 +42,12 @@ else
 
 
 //audio processing
-if room != rm_mainMenu && room != rm_options then audio_stop_all()
+
+//stop common sound effects
+audio_stop_sound(snd_laser)
+audio_stop_sound(snd_helicoptGrabber)
+audio_stop_sound(snd_laserCharging)
+
 if(musicOn)
 {
 	var oldSound = currentBGM;
@@ -61,7 +66,7 @@ if(musicOn)
 			currentBGM = snd_menu
 			break;
 		case rm_epilogue:
-			currentBGM = noone //todo:give it actual music
+			currentBGM = snd_menu
 			break;
 		default:
 			currentBGM = noone

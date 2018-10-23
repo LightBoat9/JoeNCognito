@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "1962d3d2-acd3-4c4a-a3dc-46b7e39cdd76",
+            "Value": {
+                "id": "b8a18137-f933-4337-aa8b-adfa03ae094d",
+                "resourcePath": "rooms\\rm_epilogue\\rm_epilogue.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1a897f62-8b63-424f-a091-d17f4dc232d5",
             "Value": {
                 "id": "55c776ed-5ef3-4650-97e4-2b926eb48637",
@@ -1039,6 +1047,14 @@
             }
         },
         {
+            "Key": "a54e78f4-9ff5-491c-acc4-45a22513f9ec",
+            "Value": {
+                "id": "80fd3063-a6af-44e9-b0b8-489e209a772e",
+                "resourcePath": "objects\\obj_epilogueScroll\\obj_epilogueScroll.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a5959d86-d730-4d15-a4da-f6b458cc9cab",
             "Value": {
                 "id": "2fd208cf-1aa9-4bb7-8280-0730d7a09863",
@@ -1491,6 +1507,14 @@
             "Value": {
                 "id": "bd161a73-1045-48bd-9666-50ffe6f5edd5",
                 "resourcePath": "objects\\obj_gameController\\obj_gameController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fd2e4bd1-835d-4c05-887e-fe533276e1aa",
+            "Value": {
+                "id": "35ce1c52-284c-4d30-ba7a-bf87462d4727",
+                "resourcePath": "objects\\obj_theConsole\\obj_theConsole.yy",
                 "resourceType": "GMObject"
             }
         }

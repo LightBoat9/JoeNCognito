@@ -959,6 +959,14 @@
             }
         },
         {
+            "Key": "97c65870-b49b-47e3-9ca8-57a489d29d13",
+            "Value": {
+                "id": "bd064f6c-d493-4342-a020-feede6653a51",
+                "resourcePath": "sounds\\snd_doorLock\\snd_doorLock.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "97f0fd8e-9d5a-43f1-909f-006e267d5eda",
             "Value": {
                 "id": "2e22b52a-314b-440b-8f47-6fe2ac9b95f0",

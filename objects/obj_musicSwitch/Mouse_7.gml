@@ -17,7 +17,10 @@ if(image_index == 0)
 else
 {
 	ini_write_real("Volume", "musicOn", false)
-	obj_gameController.musicOn = false
+	with obj_gameController{
+		musicOn = false
+		currentBGM = noone
+	}
 }
 
 ini_close()

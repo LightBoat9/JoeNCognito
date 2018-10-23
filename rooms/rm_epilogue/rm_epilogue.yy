@@ -2,7 +2,7 @@
 {
     "name": "rm_epilogue",
     "id": "1962d3d2-acd3-4c4a-a3dc-46b7e39cdd76",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

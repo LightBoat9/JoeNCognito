@@ -1,5 +1,8 @@
 /// @description Keep track of items, options, and location
 
+show_debug_message("Room Load Handling...")
+
+
 // Checks the "Options" file for the options the user has chosen.
 // Updates the variables in gameController based on the file.
 // If the variable doesn't exist in the file, use 1 or 0 as the default
@@ -43,17 +46,28 @@ if room != rm_mainMenu && room != rm_options then audio_stop_all()
 if(musicOn)
 {
 	var oldSound = currentBGM;
-	if (room == rm_level1){
-		currentBGM = snd_lv1
-	}else if (room == rm_level2){
-		currentBGM = snd_lv2
-	}else if(room == rm_level3){
-		currentBGM = snd_lv3
-	}else if(room == rm_level4){
-		currentBGM = snd_lv4
-	}else if(room = rm_mainMenu || room = rm_options){
-		currentBGM = snd_menu
+	switch(room){
+		case rm_level1:
+			currentBGM = snd_lv1
+			break;
+		case rm_level2:
+			currentBGM = snd_lv2
+			break;
+		case rm_level3:
+			currentBGM = snd_lv3
+			break;
+		case rm_mainMenu:
+		case rm_options:
+			currentBGM = snd_menu
+			break;
+		case rm_epilogue:
+			currentBGM = noone //todo:give it actual music
+			break;
+		default:
+			currentBGM = noone
 	}
+	
+	
 	
 	if oldSound != currentBGM {
 		audio_stop_sound(oldSound)
@@ -73,7 +87,7 @@ if (room != rm_mainMenu && room != rm_options) {
 	view_visible[0] = true
 	
 	//center camera on player as best as you can
-	var xx,yy,cx,cy;
+	var xx=0,yy=0,cx,cy;
 	
 	with obj_playerParent {
 		xx = x

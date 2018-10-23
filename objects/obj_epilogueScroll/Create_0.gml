@@ -1,0 +1,2 @@
+/// @description text setup
+myFont = 

@@ -3,7 +3,7 @@ Game Name: Joe N. Cognito
 Producer: Riley
 Designer: Luke
 Programmer: Jahdiel
-Artist: Fillipo
+Artist: Filippo
 
 Menu Instructions:
 In Main Menu - Left click on buttons to make your choice

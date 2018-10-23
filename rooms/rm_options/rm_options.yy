@@ -114,7 +114,7 @@
                     1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
                 ]
             },
-            "tilesetId": "48112f54-3dbf-4adc-b71b-f1d641a9c86f",
+            "tilesetId": "905d2207-130c-4008-91a0-eea53c69c2c5",
             "userdefined_depth": false,
             "visible": true,
             "x": 0,
